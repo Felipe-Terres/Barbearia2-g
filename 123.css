@@ -25,3 +25,17 @@ em strong {
   background-color: #cccccc;
   padding: 30px;
 }
+ #beneficios{
+  width: 50%;
+  
+}
+ul{
+  display: inline-block;
+  vertical-align: top;
+  widht: 20%;
+  margin-right: 15%;
+  
+}
+.item {
+  font-style: italic;
+  }

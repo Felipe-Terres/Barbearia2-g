@@ -1,5 +1,5 @@
 header {
-  background-color: lightslategray;
+  background: #BBBBBB;
   padding: 20px 0;
 }
 
@@ -9,7 +9,7 @@ header {
   margin: 0 auto;
 }
 
-nav{
+nav {
   position: absolute;
   top: 110px;
   right: 0;
@@ -18,7 +18,7 @@ nav{
 nav li{
   display: inline;
   margin-left: 15px;
-    }
+}
 
 nav a{
   color: #000000;
@@ -26,10 +26,10 @@ nav a{
   font-weight: bold;
   font-size: 22px;
   text-transform: uppercase;
-}  
+}
 
 nav a:hover{
-  color: gold;
+  color: #C78C19;
   text-decoration: underline;
 }
 
@@ -56,18 +56,18 @@ nav a:hover{
   font-weight: bold;
 }
 
-.produtos-descricao{
+.produto-descricao{
   font-size: 18px;
 }
 
-.produtos-preco{
+.produto-preco{
   font-size: 22px;
   font-weight: bold;
-  margin-top: 10px 0 0 0;
+  margin: 10px 0 0 0;
 }
 
 .produtos li:hover{
-  border-color: gold;
+  border-color: #C78C19;
 }
 
 .produtos li:hover h2{
@@ -75,7 +75,7 @@ nav a:hover{
 }
 
 .produtos li:active{
-  border-color: slateblue;
+  border-color: #088C19;
 }
 
 footer{
@@ -85,100 +85,7 @@ footer{
 }
 
 .copyright{
-  color: #ffffff;
-  font-size: 13px;
-  margin-top: 20px;
-}
-
-main{
-header {
-  background-color: lightslategray;
-  padding: 20px 0;
-}
-
-.caixa{
-  width: 940px;
-  position: relative;
-  margin: 0 auto;
-}
-
-nav{
-  position: absolute;
-  top: 110px;
-  right: 0;
-}
-
-nav li{
-  display: inline;
-  margin-left: 15px;
-    }
-
-nav a{
-  color: #000000;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 22px;
-  text-transform: uppercase;
-}  
-
-nav a:hover{
-  color: gold;
-  text-decoration: underline;
-}
-
-.produtos{
-  width: 940px;
-  margin: 0 auto;
-  padding: 50px;
-}
-
-.produtos li{
-  display: inline-block;
-  text-align: center;
-  width: 30%;
-  vertical-align: top;
-  margin: 0 1.5%;
-  padding: 30px 20px;
-  box-sizing: border-box;
-  border: 2px solid #000000;
-  border-radius: 10px;
-}
-
-.produtos h2{
-  font-size: 30px;
-  font-weight: bold;
-}
-
-.produtos-descricao{
-  font-size: 18px;
-}
-
-.produtos-preco{
-  font-size: 22px;
-  font-weight: bold;
-  margin-top: 10px 0 0 0;
-}
-
-.produtos li:hover{
-  border-color: gold;
-}
-
-.produtos li:hover h2{
-  font-size: 34px;
-}
-
-.produtos li:active{
-  border-color: slateblue;
-}
-
-footer{
-  text-align: center;
-  background: url(bg.jpg);
-  padding: 40px 0;
-}
-
-.copyright{
-  color: #ffffff;
+  color: #FFFFFF;
   font-size: 13px;
   margin-top: 20px;
 }
@@ -195,7 +102,7 @@ form{
 form label, form legend{
   display: block;
   font-size: 20px;
-  margin: 10px;
+  margin-bottom: 10px;
 }
 
 .input-padrao{
@@ -205,7 +112,7 @@ form label, form legend{
   width: 50%;
 }
 
-.checkbox {
+.checkbox{
   margin: 20px 0;
 }
 
@@ -215,7 +122,7 @@ form label, form legend{
   background: orange;
   color: white;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 20px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -227,23 +134,23 @@ form label, form legend{
   transform: scale(1.1);
 }
 
-.table {
-  margin: 20px 0 40px;
+table{
+  margin: 20px 0 40px 0;
 }
 
 thead{
   background: #555555;
-  color: white;
+  color: #FFFFFF;
   font-weight: bold;
 }
 
-th, td {
+th, td{
   border: 2px solid #000000;
   padding: 10px 15px;
 }
 
 .banner{
-  width: 100%;
+  width: 100%
 }
 
 .titulo-principal{
@@ -259,36 +166,37 @@ th, td {
   float: left;
 }
 
-  .principal{
-    background: #FEFEFE;
-    padding: 1em 0;
-    width: 0 0 1em;
-  }
+.principal{
+  background: #FEFEFE;
+  padding: 1em 0;
+  width: 940px;
+  margin: 0 auto;
+}
 
-  .principal p{
-    margin: 0 0 1em;
-  }
+.principal p{
+  margin: 0 0 1em;
+}
 
-  .principal strong{
-    font-weight: bold;
-  }
+.principal strong{
+  font-weight: bold;
+}
 
-  . principal em{
-    font-style: italic;
-  }
-  .beneficios{
-    padding: 3em 0;
-    backgroud: #888888;
-    margin: 0 auto;
-  }
+.principal em{
+  font-style: italic;
+}
 
-  .lista-beneficios{
-    width: 40%;
-    display: inline-block;
-    vertical-align: top;
-    
-  }
+.beneficios{
+  padding: 3em 0;
+  background: #888888;
+  margin: 0 auto;
+}
 
-  .imagem-beneficios{
-    width: 50%;
-  }
+.lista-beneficios{
+  width: 40%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.imagem-beneficios{
+  width: 50%;
+}

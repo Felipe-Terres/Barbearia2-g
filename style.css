@@ -15,15 +15,15 @@ p {
   text-align: center;
 }
 
-#missao {
+#missao{
   font-size: 20px;
 }
 
 em strong{
-  color: SaddleBrown;
+  color: crimson;
 }
 
-#banner {
+#banner{
   width: 100%;
 }
 

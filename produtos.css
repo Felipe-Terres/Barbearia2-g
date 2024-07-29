@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  color: #000000;
+}
+
 header {
   background: #BBBBBB;
   padding: 20px 0;
@@ -91,8 +98,7 @@ footer{
 }
 
 main{
-  width: 940px;
-  margin: 0 auto;
+  background: linear-gradient(#FEFEFE, #888888);
 }
 
 form{
@@ -167,7 +173,6 @@ th, td{
 }
 
 .principal{
-  background: #FEFEFE;
   padding: 1em 0;
   width: 940px;
   margin: 0 auto;
@@ -187,7 +192,7 @@ th, td{
 
 .beneficios{
   padding: 3em 0;
-  background: #888888;
+  width: 940px;
   margin: 0 auto;
 }
 
@@ -203,8 +208,9 @@ th, td{
 
 .mapa{
   padding: 3em 0;
+  width: 940px;
   margin: 0 auto;
-  background: linear-gradient(#FEFEFE, #888888);
+  
 }
 
 .mapa p{
